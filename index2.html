@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lavanya Portfolio</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo-area">
+      <h2 class="logo-name">Portfolio</h2>
+    </div>
+
+    <nav class="menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#skills">Skills</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#resume">Resume</a>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="home">
+    <div class="home-container">
+
+      <!-- Left Content -->
+      <div class="home-text">
+        <h1 class="welcome">WELCOME</h1>
+        <h2>Hello, I'm <span class="highlight">Lavanya Kadiri</span></h2>
+        <p class="tagline">
+          MCA Student passionate about Java Development and Software Industry
+        </p>
+
+        <!-- Home Buttons -->
+        <div class="home-buttons">
+          <a class="btn big" href="https://www.linkedin.com/in/kadiri-lavanya" target="_blank">LinkedIn</a>
+          <a class="btn big" href="https://github.com/" target="_blank">GitHub</a>
+          <a class="btn big" href="mailto:lavanyakadiri9398@gmail.com">Email</a>
+          <a class="btn big download" href="Lavanya_MCA (2).pdf" download>Download Resume</a>
+        </div>
+      </div>
+
+      <!-- Right Photo -->
+      <div class="home-photo">
+        <img src="pic2.jpeg" class="profile-img" alt="Lavanya Photo">
+        <h3 class="photo-name">Lavanya Kadiri</h3>
+        <p class="photo-degree">MCA Graduate (Pursuing)</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="title">About</h2>
+    <div class="card">
+      <p>
+        I am Lavanya Kadiri, an MCA student with a strong foundation in computer science concepts.
+        I am eager to contribute effectively as a Java Developer in a dynamic software team.
+      </p>
+
+      <div class="info">
+        <p><b>Email:</b> lavanyakadiri9398@gmail.com</p>
+        <p><b>Phone:</b> +91 9398284418</p>
+        <p><b>LinkedIn:</b> www.linkedin.com/in/kadiri-lavanya</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section">
+    <h2 class="title">Achievements</h2>
+    <div class="card">
+      <ul>
+        <li>Participated in Pro Kabaddi League event</li>
+        <li>Participated in Codeathon competition</li>
+        <li>Participated in Volleyball game</li>
+        <li>Participated in Summer Coaching Camp in Kabaddi</li>
+        <li>Winner in Carroms at MITS University</li>
+        <li>Winner in Tug of War at MITS University</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">Java</div>
+      <div class="skill">C</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">SQL</div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates" class="section">
+    <h2 class="title">Certificates</h2>
+
+    <div class="cert-list">
+      <button onclick="showCertificate('images/cert1.jpg','Employability Skills Certificate')" class="cert-btn">
+        Employability Skills (Mahindra Pride Classroom)
+      </button>
+
+      <button onclick="showCertificate('Data-Aquiring.jpeg','Accenture Data Acquiring Certificate')" class="cert-btn">
+        Data Acquiring by Accenture
+      </button>
+	  <button onclick="showCertificate('sql.png','SQL(Basics)')" class="cert-btn">
+        SQL
+      </button>
+	  <button onclick="showCertificate('java.png','JAVA(Basics)')" class="cert-btn">
+        JAVA
+      </button>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section">
+    <h2 class="title">Resume</h2>
+    <div class="card">
+      <h3>Education</h3>
+      <ul>
+        <li>MCA (Pursuing) - MITS Madanapalle - 83%</li>
+      </ul>
+
+      <h3>Languages</h3>
+      <p>Telugu, English</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Lavanya Kadiri | Futuristic Portfolio</p>
+  </footer>
+
+  <script src="script2.js"></script>
+</body>
+</html>
